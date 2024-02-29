@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(252, 252, 252);
+}
+.App {
+    border: 3px  solid #e00f0f;
+    margin: 90px  32%;
+    padding: 50px;
+    text-align: center;
+    border-radius: 35px;
+}
+.App h2 {
+    color: #8f0404;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.App ul {
+    list-style: "❤️";
+    cursor: pointer;
+    font-size: 30px ;
+    color: #5f0404;
+    margin: 15px;
+}
+.App input {
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    margin: 25px;
+    border: 1px solid rgb(19, 19, 19);
+}
+.App button {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(56, 2, 2);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+}
+
+.App ul li {
+    overflow-wrap: break-word;
+}
+
+.diffstyle {
+    list-style: "🆗";
+    text-decoration: line-through;
+}
+.div10 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
